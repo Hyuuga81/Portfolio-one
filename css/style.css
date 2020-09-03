@@ -1,0 +1,228 @@
+/*html no margins*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*body. width, font-size, background color, font color, font-family*/
+body {
+  min-width: 960px;
+  width: 100%;
+  font-size: 16px;
+  color: #595959;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*full-top. width 100%*/
+.full-top {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+}
+/*top-left. font-family, font-size*/
+.top-left {
+  width: 50%;
+  float: left;
+}
+
+/*.top-left img {
+  margin-left: 20px;  
+}*/
+
+.top-left h3 {
+  /*font-family:;*/
+  margin-left: 165px;
+  font-size: 30px;
+}
+
+
+/*top-right. display block, float left, list-style-type none, text decoration none, font color*/
+.top-right {
+  width: 50%;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-right: 140px;
+}
+
+nav ul {
+  display: block;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+}
+
+nav ul li a {
+  padding-right: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #595959;
+}
+
+/*hero. background image, h1 catch phrase, h2 mini catch phrase, font-family*/
+.hero {
+  background: url("../img/hero.jpg");
+  height: 600px;
+  width: 80%;
+  margin: 80px auto;
+  clear: both;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 80px;
+  padding-top: 200px;
+  padding-left: 20px;
+}
+
+.hero h2 {
+  color: #ffffff;
+  font-size: 32px;
+  padding-top: 50px;
+  padding-left: 20px;
+  line-height: 40px;
+}
+/*about me. h4 and paragraph*/
+.about-me {
+  width: 80%;
+  height: 500px;
+  margin: 60px auto;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.about-me h4 {
+  padding-top: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*portfolio. 30% width, float right, image and paragraph*/
+.portfolio {
+  width: 80%;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.portfolio h2 {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.first, .second, .third {
+  width: 30%;
+  float: left;
+  padding: 0 20px;
+}
+
+.portfolio h4 {
+  padding-top: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.fourth {
+  clear: both;
+  padding-top: 100px;
+}
+
+.fourth a {
+  border: 2px solid #595959;
+  padding: 20px;
+  margin-left: 600px;
+  margin-top: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*hire me. contact info and email with blurb and image*/
+.my-stuff {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.my-stuff .left-side {
+  float: left;
+  background: url("../img/desk.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 50%;
+}
+
+.my-stuff .left-side h3 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  padding-top: 150px;
+  text-transform: uppercase;
+}
+
+.my-stuff .right-side {
+  float: left;
+}
+
+.right-side form {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.my-stuff h4 {
+  font-size: 20px;
+  margin-left: 230px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #595959;
+}
+
+.my-stuff a {
+  text-decoration: none;
+}
+
+
+/*footer. left align copyright. right align social media links*/
+footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #808080;
+  color: #fff;
+}
+
+.left-footer {
+  float: left;
+  padding: 30px 0 0 165px;
+  font-size: 20px;
+}
+
+.right-footer {
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-right: 140px;
+}
+
+
+
+footer i {
+  font-size: 40px;
+  color: #ffb366;
+  padding-left: 80px;
+}
